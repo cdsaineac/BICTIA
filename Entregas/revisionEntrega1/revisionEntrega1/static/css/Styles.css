@@ -1,0 +1,133 @@
+:root {
+    --main--color: #780000;
+    --secondary--color: #f4f4f4;
+}
+
+body {
+    margin: 10px;
+}
+
+header,
+footer {
+    background-color: var(--main--color);
+    grid-template-columns: 25% 75%;
+    padding: 20px 10px;
+    color: var(--secondary--color);
+    font-size: large;
+}
+
+a {
+    color: black;
+}
+
+header,
+.header__navbar {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.header__title,
+.info__title,
+.article__title {
+    font-size: xx-large;
+}
+
+.header__navbar {
+    grid-template-columns: repeat(4, 25%);
+}
+
+.header__navbar__a {
+    color: var(--secondary--color);
+}
+
+.main {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.info {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    background-color: var(--secondary--color);
+    padding: 10px;
+}
+
+.info__img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.info__list {
+    margin: 1rem;
+}
+
+.info__title,
+.article__title {
+    color: var(--main--color);
+    border-bottom: 4px double var(--main--color);
+    margin: 0.5rem 0;
+}
+
+.info__subtitle,
+.info__text {
+    margin: 10px;
+}
+
+.info__subtitle {
+    font-size: x-large;
+}
+
+.info__subtitle::before {
+    content: "- ";
+    color: var(--main--color);
+}
+
+section {
+    margin: 10px 10px;
+    background-color: var(--secondary--color);
+    padding: 10px;
+}
+
+section:first-child {
+    margin: 0 10px;
+}
+
+th,
+td {
+    border: 1px double rgb(0, 0, 0);
+    padding: 5px;
+    font-size: large;
+    text-align: justify;
+}
+
+th {
+    font-size: x-large;
+    text-align: center;
+}
+
+.article__list {
+    list-style-type: disc;
+    padding: 0 0 0 40px;
+}
+
+.article__paragraph,
+.article__li {
+    font-size: large;
+}
+
+.article__paragraph {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.article__li {
+    font-size: large;
+    margin: 10px 0;
+}

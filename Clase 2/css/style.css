@@ -1,0 +1,66 @@
+ul li {
+    list-style: none;
+}
+
+h4::before {
+    content: "• ";
+}
+
+.align-center {
+    text-align: center;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #020a0a;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: red
+}
+
+.main-nav__item a::after {
+    content: " | ";
+}
+
+#hola {
+    background-color: black;
+}
+
+
+/* <p>  0,0,1*/
+
+
+/* <div id="idParrafo"> <p> 1,0,1 */
+
+
+/* <p clase="idParrafo"> 0,1,0 */
+
+
+/* <p id="idParrafo"> 1,0,0 */
+
+
+/* <div><p> 0,0,2 */
+
+input:disabled {
+    background-color: red;
+    border-color: yellow;
+    display: none
+}

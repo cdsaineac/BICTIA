@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta página te mostrará información personal" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="networking, contactos, JavaScript, formulario, proyectos, Rodrigo, Vega" />
+    <meta name="author" content="Rodrigo Vega" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Rodrigo Vega</title>
+    <link rel="shortcut icon" href="./src/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="./src/fotoRodrigo.png" alt="Rodrigo Vega" width="150" height="150" style="float: left" />
+        <div class="align-center">
+            <h1 style="color:rgb(18, 18, 146)">Rodrigo Vega</h1>
+            <audio controls>
+                <source src="./src/mensajerodrigo.aac" type="audio/aac">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+
+        <br><br><br>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="#contacto">Datos de Contacto</a></li>
+                <li class="main-nav__item"><a href="#conocimiento">Habilidades y Conocimientos</a></li>
+                <li class="main-nav__item"><a href="#experiencia">Experiencia Laboral</a></li>
+                <li class="main-nav__item"><a href="#formacion">Formación Académica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <article>
+                <h3 style="color:rgb(113, 113, 114)">Perfil Profesional</h3>
+                <p>
+                    Administrador de Empresas, Máster en Marketing Digital y Magister en Administración de Negocios con nivel de Inglés C1. Experiencia en negociación y fidelización de clientes estratégicos, planeación y ejecución de campañas comerciales, análisis de datos
+                    e indicadores de rentabilidad y crecimiento, lanzamientos de producto y posicionamiento de marca, control de presupuestos y capacitación. Apasionado por el cumplimiento de objetivos, aprendizaje continuo y nuevos retos. Habilidad en
+                    pensamiento estratégico y toma de decisiones.
+                </p>
+            </article>
+        </section>
+        <section>
+            <article class="contacto holas">
+                <h4>Datos de Contacto</h4>
+                <ul>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=+573053880108">📱 Contactarme por whatsapp</a>
+                    </li>
+                    <li>
+                        <a href="mailto:rodrigovega79@gmail.com">✉ Contactarme por email</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rodrigovegaramirez" target="_bank">💻 Ir a mi sitio
+                            LinkedIn</a>
+                    </li>
+                    <li>📍 Bogotá - Colombia</li>
+                </ul>
+            </article>
+            <article id="conocimiento">
+                <h4>Habilidades y Conocimientos</h4>
+                <ol>
+                    <li>Dirección de equipos estratégicos</li>
+                    <li>Inglés Avanzado (Nivel C1)</li>
+                    <li>Automatización de procesos</li>
+                    <li>Dashboards e Indicadores</li>
+                    <li>Propuestas comerciales</li>
+                    <li>Desarrollo de negocios</li>
+                    <li>Excel Avanzado</li>
+                    <li>Power BI</li>
+                    <li>Scrum</li>
+                    <li>CRM</li>
+                </ol>
+            </article>
+            <article id="experiencia">
+                <h4>Experiencia Laboral</h4>
+                <ol>
+                    <li>Controles Inteligentes | Subgerente Administrativo - 2021</li>
+                    <li>Cheil Colombia | Líder de Operaciones Comerciales | 2019 - 2021</li>
+                    <li>Falabella Colombia | Gerente de Ventas | 2016 - 2018 </li>
+                    <li>LG Electronics | Marketing Specialist | 2012 - 2015 </li>
+                    <li>Idnustrias Inca | Jefe Administrativo de Ventas | 2009 - 20012</li>
+                </ol>
+            </article>
+            <article id="formacion">
+                <h4>Formación Académica</h4>
+                <ol>
+                    <li>Politécnico Grancolombiano | Ingeniería de Software - 2021 (En curso)</li>
+                    <li>Universidad Sergio Arboleda | MBA - 2017</li>
+                    <li>IEBS | Maestría en Marketing Digital - 2017</li>
+                    <li>Universidad Sergio Arboleda | Especialización en Gerencia Logística - 2006</li>
+                    <li>Pontificia Universidad Javeriana | Administración de Empresas - 2003</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <br>
+        <h3 style="color:rgb(199, 28, 22)">Deseas una capacitación comercial? </h3>
+
+        <figure>
+
+            <video width="200" height="150" controls preload="auto">
+                <source src="./src/Mentor.mp4" type="video/mp4">
+            </video>
+            <figcaption>Gestión Comercial</figcaption>
+        </figure>
+
+        <h3 style="color:rgb(150, 5, 5)">Pongámonos en contacto!</h3>
+
+        <br>
+
+        <form>
+            <label for="name">
+                <span>Cuál es tu nombre?</span>
+                <input type="text" id="name" name="name" placeholder="Nombre completo" disabled><br><br>
+            </label>
+
+
+            <label for="telefono">
+                <span>Cuál es tu número telefónico</span>
+                <input type="number" id="telefono" name="telefono"><br><br>
+            </label>
+
+            <label for="email">
+                <span>Cuál es tu e-mail?</span>
+                <input type="email" id="email" name="email" placeholder="email@example.com"><br><br>
+
+            </label>
+            <input type="submit" value="Enviar">
+
+            <input type="color" disabled>
+        </form>
+
+    </footer>
+
+</body>
+
+</html>
+
+<div id="contenedor">
+    <p id="id" class="centrarTexto justificar borde"><input name="name"></p>
+</div>
+
+
+<div id="contenedor">
+    <p id="id" class="centrarTexto justificar borde"><input name="name"><span></span></p>
+</div>
