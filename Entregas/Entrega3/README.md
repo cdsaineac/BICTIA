@@ -102,6 +102,7 @@ mejorPromedioColegio(colegio);
 
 
 Esta funcion retorna un objeto estudiante con la informacion del estudiante que se está buscando por el parámetro nombre, si no lo encuentra retorna una cadena de caracteres con un mensaje correspondiente a que la busqueda no tuvo exito
-// Buscar un estudiante que pertenezca a un grado seleccionado por parametro.
+
+- Buscar un estudiante que pertenezca a un grado seleccionado por parametro.
 console.log(buscarEstudianteGrado('Murray Knox', 'once'));
 console.log(buscarEstudianteGrado('Boone Lang', 'quinto'));
