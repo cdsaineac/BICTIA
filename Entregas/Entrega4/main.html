@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Mi portafolio web realizado solo con HTML y CSS. Segunda entrega bootcamp BICTIA">
+    <meta name="author" content="Cristian Sainea">
+    <title>
+        Ejercicio Colegio
+    </title>
+    <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/Styles.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="header__title">School Web App</h1>
+    </header>
+    <div class="main">
+        <aside class="info">
+            <ol class="info__list">
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        total de estudiantes que
+                        hay en el colegio. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        total de estudiantes que
+                        hay en primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        total de estudiantes que
+                        hay en bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niños que hay en el
+                        colegio. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niñas que hay en el
+                        colegio. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niños que hay en
+                        primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niñas que hay en
+                        primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niños que hay en
+                        bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La cantidad
+                        de niñas que hay en
+                        bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La media de
+                        las notas en el colegio.
+                    </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La media de
+                        las notas en el
+                        bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La media de
+                        las notas en el
+                        primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La media de
+                        las notas de un grado
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La media de
+                        las notas de un curso
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La moda de
+                        las notas en el colegio.
+                    </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La moda de
+                        las notas en el
+                        bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La moda de
+                        las notas en el primaria.
+                    </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La moda de
+                        las notas de un grado
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La moda de
+                        las notas de un curso
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La mediana de
+                        las notas en el
+                        colegio. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La mediana de
+                        las notas en el
+                        bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La mediana de
+                        las notas en el
+                        primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La mediana de
+                        las notas de un grado
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">La mediana de
+                        las notas de un curso
+                        seleccionado por parametro. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en cada materia. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en el curso. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en el grado. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en primaria. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en bachillerato. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Seleccionar
+                        el estudiante con mejor
+                        nota en promedio en el colegio. </a> </li>
+                <li class="info__subtitle"> <a href="#functionSelected" onclick="seleccionarFuncion(this)">Buscar un
+                        estudiante que pertenezca
+                        a un grado seleccionado por parametro. </a> </li>
+
+            </ol>
+        </aside>
+        <article>
+            <section>
+                <h3 class="article__title">La función seleccionada es: </h3>
+                <p class="article__paragraph" id='functionSelected'></p>
+            </section>
+            <section id="parametros" style="display: none;">
+                <h3 class="article__title">Ingrese los parámetros adicionales para realizar la consulta</h3>
+                <select name="grado" id="grados" style="display: none;">
+                    <option value="primero">primero</option>
+                    <option value="segundo">segundo</option>
+                    <option value="tercero">tercero</option>
+                    <option value="cuarto">cuarto</option>
+                    <option value="quinto">quinto</option>
+                    <option value="sexto">sexto</option>
+                    <option value="septimo">septimo</option>
+                    <option value="octavo">octavo</option>
+                    <option value="noveno">noveno</option>
+                    <option value="decimo">decimo</option>
+                    <option value="once">once</option>
+                </select>
+                <select name="curso" id="cursos" style="display: none;">
+                    <option value="A">A</option>
+                    <option value="B">B</option>|
+                </select>
+                <select name="materia" id="materias" style="display: none;">
+                    <option value="historia">historia</option>
+                    <option value="matematicas">matematicas</option>
+                    <option value="religion">religion</option>
+                    <option value="filosofia">filosofia</option>
+                    <option value="artes">artes</option>
+                    <option value="educacion_fisica">educacion fisica</option>
+                    <option value="biologia">biologia</option>
+                    <option value="quimica">quimica</option>
+                    <option value="fisica">fisica</option>
+                </select>
+                <input type="text" id="nombreEstudiante">
+                <button type="button" id="botonParametros" onclick="consultarParametros()">Consultar</button>
+            </section>
+            <section>
+                <h3 class="article__title">Resultado: </h3>
+                <p class="article__paragraph" id='functionResult'></p>
+            </section>
+            <section>
+                <img src="school.png" alt="school module image">
+            </section>
+        </article>
+    </div>
+
+    <footer style="text-align: center;">
+        <p>Desarrollado por Cristian Sainea para BICTIA - 2021</p>
+    </footer>
+</body>
+
+</html>
