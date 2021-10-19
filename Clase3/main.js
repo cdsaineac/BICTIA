@@ -42489,4 +42489,14 @@ function quintoEstudiante(colegio) {
     }
 }
 
-quintoEstudiante(colegio);
+function iterarSeccion(seccion) {
+    let dictionary = new Map();
+    keysSeccion = Object.keys(seccion);
+    for (let iterador = 0; iterador < keysSeccion.length; iterador++) {
+        dictionary.set(iterador, keysSeccion[iterador]);
+        console.log(seccion[dictionary.get(iterador)])
+    }
+    console.log(dictionary)
+}
+iterarSeccion(colegio.primaria[0]);
+iterarSeccion(colegio.secundaria[0]);
